@@ -1,6 +1,14 @@
-assets/*
-!assets/.gitignore
-protected/runtime/*
-!protected/runtime/.gitignore
-protected/data/*.db
-themes/classic/views/
+# but not these
+!.gitignore
+!assets/
+!core/
+!_SASS/
+!_JS/
+
+# ignore cache and config
+#core/cache/*
+#core/config/config.inc.php
+#config.core.php
+#manager/config.core.php
+#connectors/config.core.php
+.DS_Store
